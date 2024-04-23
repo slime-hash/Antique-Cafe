@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+  box-sizing:border-box;
+  margin:0;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+}
+.containera {
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	width: 746px;
+	max-width: 100%;
+	min-height: 480px;
+  min-width:340px;
+  margin: 0 auto;
+}
+.lg-view{
+  color: grey;
+}
+h2 {
+  font-size:3rem;
+  margin-bottom:2rem;
+}
+.form-container {
+  display:flex;
+}
+
+.left-container {
+  flex:1;
+  height:480px;
+}
+.right-container {
+  display:flex;
+  flex:1;
+  height:460px;
+  justify-content:center;
+  align-items:center;
+}
+
+.left-container {
+  display:flex;
+  flex:1;
+  height:480px;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.left-container p {
+  font-size:1.5rem;
+}
+
+.right-inner-container {
+  width:70%;
+  height:80%;
+  text-align:center;
+}
+
+.left-inner-container {
+  height:50%;
+  width:80%;
+  text-align:center;
+  line-height:22px;
+}
+
+input, textarea {
+	background-color: #2a2929;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+  font-size:1.4rem;
+  color: #f49862;
+}
+
+input:focus, textarea:focus {
+  outline:1px solid #f49862;
+  color: #f49862;
+}
+
+input:active, textarea:active {
+  color: #f49862;
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid #f49862;
+	background-color: #2a2929;
+	color: grey;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+  cursor:pointer;
+}
+
+button:hover {
+  opacity:0.8;
+  color: #f49862;
+}
+@media only screen and (max-width: 600px) {
+  .contact{
+    display: flex;
+    align-items: center;
+  }
+  .containera{
+    width: 60vw;
+    height: max-content;
+    margin-bottom: 30px;
+  }
+  .left-container{
+    display: none;
+  }
+  .lg-view {
+      
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .sm-view {
+    display:none;  
+  }
+}
+
+form p {
+  text-align:left;
+}

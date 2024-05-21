@@ -21,12 +21,6 @@ header {
     align-items: center;
 }
 
-nav {
-    background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-}
-
 nav a {
     font-size: 30px;
     color: rgb(246, 146, 89);

@@ -17,6 +17,7 @@ header {
     padding: 20px 200px;
     background: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px); /* WebKit-specific prefix */
     justify-content: flex-end;
     align-items: center;
 }

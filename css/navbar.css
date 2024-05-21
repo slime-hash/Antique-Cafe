@@ -177,8 +177,7 @@ nav a.active {
     header{
         padding: 0;
         height: 120px;
-        background: none;
-        backdrop-filter: none;
+        background-color: tramsparent;
     }
     .wrepper{
         display: block;  

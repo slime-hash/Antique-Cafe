@@ -57,9 +57,7 @@ nav a.active {
     top:50%;
     transform: translate(-50%, -50%);
     padding: 0px;
-    background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px); 
+    background: tranparent;
     border-style:none;
     outline: none;
     cursor: pointer;

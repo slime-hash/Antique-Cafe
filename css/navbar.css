@@ -56,8 +56,8 @@ nav a.active {
     left:50%;
     top:50%;
     transform: translate(-50%, -50%);
+    background-color: transparent;
     padding: 0px;
-    background: tranparent;
     border-style:none;
     outline: none;
     cursor: pointer;

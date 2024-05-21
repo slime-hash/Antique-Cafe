@@ -54,16 +54,32 @@
 
     <!-- Menu-->
     <section id="menu" class="menu scroll-slide" style="background-image: url(img/coffe\ house.jpeg); background-size: cover;">
-      <div class="container head-menu">
-        <h1 class="text-center section-heading">Our Cafe Menu</h1>
+      
+      
+      <div class="card" id="card">
+        <div class="flip-card">
+          <div class="head-menu front">
+            <h1 class="section-heading">Our  Coffee  Menu</h1>
+          </div>
+          <div class="head-menu back">
+            <h1 class="section-heading">Our Candy Menu</h1>
+          </div>
+        </div>
       </div>
+      
+
+
+
       <div class="container">
-        <div class="swiper tranding-slider">
+
+        <div id="coffee" class="swiper tranding-slider coffee animate">
           <div class="swiper-wrapper">
             <!-- Slide-start -->
             <div class="swiper-slide tranding-slide">
               <div class="tranding-slide-img">
-                <img src="img/menu-item-1.png" alt="Tranding">
+                <img src="img/Hot cappuccino.png" id="image" alt="Tranding">
+                <p class="description" id="description">A classic Italian coffee made with equal parts espresso, steamed milk, and a thick layer of milk foam. Often enjoyed with a sprinkle of cocoa powder or cinnamon on top</p>
+                
               </div>
               <div class="tranding-slide-content">
                 <h1 class="food-price">$8.50</h1>
@@ -78,11 +94,12 @@
             <!-- Slide-start -->
             <div class="swiper-slide tranding-slide">
               <div class="tranding-slide-img">
-                <img src="img/menu-item-2.jpg" alt="Tranding">
+                <img src="img/Hot americano.png" alt="Tranding">
+                <p class="description" id="description">A bold and straightforward coffee made by diluting a shot of espresso with hot water. It has a rich flavor and is similar in strength to traditional drip coffee</p>
               </div>
               <div class="tranding-slide-content">
                 <h1 class="food-price">$9.50</h1>
-                <div class="tranding-slide-content-bottom">
+                <div class="tranding-slide-content-bottom" id="tscb">
                   <h2 class="food-name">
                     Hot Americano
                   </h2>
@@ -93,11 +110,12 @@
             <!-- Slide-start -->
             <div class="swiper-slide tranding-slide">
               <div class="tranding-slide-img">
-                <img src="img/menu-item-3.jpg" alt="Tranding">
+                <img src="img/Hot latte.png" alt="Tranding">
+                <p class="description" id="description">A smooth and creamy coffee made with a shot of espresso and steamed milk, topped with a small amount of milk foam. Perfect for those who enjoy a milder coffee flavor</p>
               </div>
               <div class="tranding-slide-content">
                 <h1 class="food-price">$11.75</h1>
-                <div class="tranding-slide-content-bottom">
+                <div class="tranding-slide-content-bottom" id="tscb">
                   <h2 class="food-name">
                     Hot Latte
                   </h2>
@@ -108,11 +126,12 @@
             <!-- Slide-start -->
             <div class="swiper-slide tranding-slide">
               <div class="tranding-slide-img">
-                <img src="img/menu-item-4.jpg" alt="Tranding">
+                <img src="img/Hot espresso.png" alt="Tranding">
+                <p class="description" id="description">A strong and concentrated coffee brewed by forcing hot water through finely-ground coffee beans. It has a rich, intense flavor and forms the base for many other coffee drinks.</p>
               </div>
               <div class="tranding-slide-content">
                 <h1 class="food-price">$10.75</h1>
-                <div class="tranding-slide-content-bottom">
+                <div class="tranding-slide-content-bottom" id="tscb">
                   <h2 class="food-name">
                     Hot Espresso
                   </h2>
@@ -123,11 +142,12 @@
             <!-- Slide-start -->
             <div class="swiper-slide tranding-slide">
               <div class="tranding-slide-img">
-                <img src="img/menu-item-5.jpg" alt="Tranding">
+                <img src="img/Iced cappuccino.png" alt="Tranding">
+                <p class="description" id="description">A refreshing take on the classic cappuccino, made with chilled espresso, cold milk, and a generous amount of milk foam, served over ice. Ideal for hot days</p>
               </div>
               <div class="tranding-slide-content">
                 <h1 class="food-price">$10</h1>
-                <div class="tranding-slide-content-bottom">
+                <div class="tranding-slide-content-bottom" id="tscb">
                   <h2 class="food-name">
                     Iced Cappuccino
                   </h2>
@@ -138,11 +158,12 @@
             <!-- Slide-start -->
             <div class="swiper-slide tranding-slide">
               <div class="tranding-slide-img">
-                <img src="img/menu-item-6.jpg" alt="Tranding">
+                <img src="img/Iced Americano.png" alt="Tranding">
+                <p class="description" id="description">A cool and invigorating coffee drink made by pouring espresso over ice and adding cold water. It retains the bold flavor of espresso with a refreshing twist</p>
               </div>
               <div class="tranding-slide-content">
                 <h1 class="food-price">$12.50</h1>
-                <div class="tranding-slide-content-bottom">
+                <div class="tranding-slide-content-bottom" id="tscb">
                   <h2 class="food-name">
                     Iced Americano
                   </h2>
@@ -153,11 +174,12 @@
             <!-- Slide-start -->
             <div class="swiper-slide tranding-slide">
               <div class="tranding-slide-img">
-                <img src="img/menu-item-7.jpg" alt="Tranding">
+                <img src="img/Iced Milky Latte.png" alt="Tranding">
+                <p class="description" id="description">A delightful and creamy iced coffee made with espresso, cold milk, and ice cubes. It offers a perfect balance of coffee strength and milk smoothness</p>
               </div>
               <div class="tranding-slide-content">
                 <h1 class="food-price">$12.50</h1>
-                <div class="tranding-slide-content-bottom">
+                <div class="tranding-slide-content-bottom" id="tscb">
                   <h2 class="food-name">
                     Iced Milky Latte
                   </h2>
@@ -168,11 +190,12 @@
             <!-- Slide-start -->
             <div class="swiper-slide tranding-slide">
                 <div class="tranding-slide-img">
-                  <img src="img/menu-item-8.jpg" alt="Tranding">
+                  <img src="img/Iced Espresso.png" alt="Tranding">
+                  <p class="description" id="description">A chilled version of the classic espresso, served over ice. It maintains the intense and rich flavor of espresso, providing a cooling and energizing experience</p>
                 </div>
-                <div class="tranding-slide-content">
+              <div class="tranding-slide-content">
                   <h1 class="food-price">$14</h1>
-                  <div class="tranding-slide-content-bottom">
+                  <div class="tranding-slide-content-bottom" id="tscb">
                     <h2 class="food-name">
                       Iced Espresso
                     </h2>
@@ -181,19 +204,145 @@
               </div>
               <!-- Slide-end -->
           </div>
-        
-          <div class="tranding-slider-control">
-            <div class="swiper-button-prev slider-arrow">
-              <ion-icon name="arrow-back-outline"></ion-icon>
-            </div>
-            <div class="swiper-button-next slider-arrow">
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        
         </div>
+
+        <div id="candy" class="swiper tranding-slider candy hidden">
+          <div class="swiper-wrapper">
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="img/Tiramisu.png" alt="Tranding">
+                <p class="description" id="description">A classic Italian dessert made of layers of coffee-soaked ladyfingers and a creamy mascarpone cheese filling, dusted with cocoa powder</p>
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$8.50</h1>
+                <div class="tranding-slide-content-bottom" id="tscb">
+                  <h2 class="food-name">
+                    Tiramisu
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="img/Cheesecake.png" alt="Tranding">
+                <p class="description" id="description">A creamy dessert made from cheese (usually cream cheese or ricotta), with a crunchy cookie crust and various toppings such as berries, caramel, or chocolate</p>
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$9.50</h1>
+                <div class="tranding-slide-content-bottom" id="tscb">
+                  <h2 class="food-name">
+                    Cheesecake
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="img/Éclairs.png" alt="Tranding">
+                <p class="description" id="description">Pastries made from choux dough filled with various creams (custard, whipped cream, chocolate cream) and topped with icing</p>
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$11.75</h1>
+                <div class="tranding-slide-content-bottom" id="tscb">
+                  <h2 class="food-name">
+                    Éclairs
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="img/Panna Cotta.png" alt="Tranding">
+                <p class="description" id="description">An Italian dessert made from cream, sugar, and gelatin, served with fruit sauces, berries, or caramel</p>
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$10.75</h1>
+                <div class="tranding-slide-content-bottom" id="tscb">
+                  <h2 class="food-name">
+                    Panna Cotta
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="img/Croissants.png" alt="Tranding">
+                <p class="description" id="description">Flaky pastries of French origin that can be plain or filled with ingredients like chocolate, almonds, or berries</p>
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$10</h1>
+                <div class="tranding-slide-content-bottom" id="tscb">
+                  <h2 class="food-name">
+                    Croissant
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="img/Strudel.png" alt="Tranding">
+                <p class="description" id="description">An Austrian dessert made from thin pastry filled with apples, nuts, and spices, often served with vanilla sauce or ice cream</p>
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$12.50</h1>
+                <div class="tranding-slide-content-bottom" id="tscb">
+                  <h2 class="food-name">
+                    Strudel
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="img/Chocolate Soufflé.png" alt="Tranding">
+                <p class="description" id="description">A fluffy dessert made from a chocolate batter, typically served hot with a rich, dense interior</p>
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$12.50</h1>
+                <div class="tranding-slide-content-bottom" id="tscb">
+                  <h2 class="food-name">
+                    Chocolate Soufflé
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="img/Fruit Loaf.png" alt="Tranding">
+                  <p class="description" id="description">A fragrant cake with added dried fruits such as raisins, dried apricots, and prunes</p>
+                </div>
+              <div class="tranding-slide-content">
+                  <h1 class="food-price">$14</h1>
+                  <div class="tranding-slide-content-bottom" id="tscb">
+                    <h2 class="food-name">
+                      Fruit Loaf
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+          </div>
+        </div>
+
+        
+
       </div>
+      
     </section>
   
   
@@ -203,7 +352,7 @@
         <div class="blog-slider__wrp swiper-wrapper">
           <div class="blog-slider__item swiper-slide">
             <div class="blog-slider__img">
-              <img src="img/menu-item-1.png" alt="">
+              <img src="img/coffee-zern.png" alt="">
             </div>
             <div class="blog-slider__content">
               <div class="blog-slider__title">Antique Cafe не обычная кофейня?</div>
@@ -216,7 +365,7 @@
     
           <div class="blog-slider__item swiper-slide">
             <div class="blog-slider__img">
-              <img src="img/menu-item-2.jpg" alt="">
+              <img src="img/Снимок экрана 2024-05-20 133623.png" alt="">
             </div>
             <div class="blog-slider__content">
               <div class="blog-slider__title">Почему Вы должны прийти к нам?</div>
@@ -228,7 +377,7 @@
           </div>
           <div class="blog-slider__item swiper-slide">
             <div class="blog-slider__img">
-              <img src="img/menu-item-3.jpg" alt="">
+              <img src="img/enter.png" alt="">
             </div>
             <div class="blog-slider__content">
               <div class="blog-slider__title">Добро пожаловать в Antique Cafe!</div>

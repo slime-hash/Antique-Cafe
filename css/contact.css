@@ -12,13 +12,13 @@
 
 
 .containera {
-	background-color: rgba(0, 0, 0, 0.8);
-	border-radius: 10px;
-	position: relative;
-	overflow-x: hidden;
-	width: 746px;
-	max-width: 100%;
-	min-height: 480px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  position: relative;
+  overflow-x: hidden;
+  width: 746px;
+  max-width: 100%;
+  min-height: 480px;
   min-width:340px;
   margin: 0 auto;
   display: flex;
@@ -77,11 +77,11 @@ h2 {
 }
 
 input, textarea {
-	background-color: #2a2929;
-	border: none;
-	padding: 12px 15px;
-	margin: 8px 0;
-	width: 100%;
+  background-color: #2a2929;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
   font-size:1.4rem;
   color: #f49862;
 }
@@ -96,16 +96,16 @@ input:active, textarea:active {
 }
 
 button {
-	border-radius: 20px;
-	border: 1px solid #f49862;
-	background-color: #2a2929;
-	color: grey;
-	font-size: 12px;
-	font-weight: bold;
-	padding: 12px 45px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	transition: transform 80ms ease-in;
+  border-radius: 20px;
+  border: 1px solid #f49862;
+  background-color: #2a2929;
+  color: grey;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
   cursor:pointer;
 }
 

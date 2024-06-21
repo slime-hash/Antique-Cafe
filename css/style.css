@@ -49,6 +49,7 @@ body .wrapper .intro .logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 20px;
 }
 body .wrapper .intro .logo h1 {
   color: var(--primary-brown);
